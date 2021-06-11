@@ -43,6 +43,11 @@ output_val.config(bg="#ECFEE8")
 output_val.pack()
 
 
+label_out = Label(root, text="(To USD)", font=("Garuda", 15))
+label_out.config(bg="#ECFEE8")
+label_out.pack()
+
+
 convert_btn = Button(root, command=convert_curr, text="Convert", font=("Garuda", 15), width=10)
 convert_btn.config(bg="#ECFEE8")
 convert_btn.pack()
